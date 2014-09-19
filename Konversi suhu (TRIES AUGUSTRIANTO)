@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+
+	float celcius;
+   float fahrenheit;
+   float reamur;
+   celcius=0;
+   printf("Tries Agustrianto""\n""\n""Tugas Membuat Program Konversi Suhu Celsius ke Fahrenheit""\n""masukan data fahrenheit yang akan dikonversi""\n");
+	scanf("%f",&celcius);
+   fahrenheit=celcius*1.8+32;
+   reamur=celcius*0.8;
+   printf("jadi %4.3f celcius adalah %3.1f fahrenheit dan %2.2f reamur",celcius,fahrenheit,reamur);
+   printf("\n""\n""Terima Kasih");
+
+	getch();
+}
